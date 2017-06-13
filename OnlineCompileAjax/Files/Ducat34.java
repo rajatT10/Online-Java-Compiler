@@ -1,0 +1,1 @@
+public class Ducat34{    public Ducat34(){    }    public static void main(String... args){System.out.println("sss")    }}

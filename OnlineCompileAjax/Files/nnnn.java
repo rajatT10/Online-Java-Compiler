@@ -1,0 +1,1 @@
+public class nnnn{    public nnnn(){    }    public static void main(String... args){    }}

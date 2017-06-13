@@ -1,0 +1,1 @@
+public class hhhh{    public hhhh(){    }    public static void main(String... args){    }}

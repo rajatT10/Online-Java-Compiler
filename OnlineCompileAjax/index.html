@@ -1,0 +1,25 @@
+<html>
+  <head>
+   
+    
+    <script src="MyScript.script"></script>
+  </head>
+  <body bgcolor="#F0FFFF"  onload="document.getElementById('class').focus()">
+      <form name="form">
+      	<marquee behavior="alternate"> <font color="green" size="10"> Online JAVA Compiler </font></marquee><br>
+      		
+Enter Your Class Name <input type="text" name="class" id="class" onblur="set()"><br>
+<font color="red" size="4">Write Your Java Code Here</font><br>
+<textarea cols="40" rows="15" name="code" id="code" ></textarea>
+
+<textarea cols="40" rows="15" name="code1" id="code1" ></textarea>
+    <p align="center">
+<input type="button" value="COMPILE" onclick="compile()">&nbsp;&nbsp;
+<input type="button" value="RUN" onclick="run()">
+<input type="button" value="RESET" onclick="blank()">
+<br> <font color="green" size="5"> Output of the Program</font>
+    
+ </p>
+</form>
+</body>
+</html>

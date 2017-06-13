@@ -1,0 +1,20 @@
+<web-app>	
+    <servlet>
+        <servlet-name>Compile</servlet-name>
+        <servlet-class>Compile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Compile</servlet-name>
+        <url-pattern>/Compile</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+        <servlet-name>Run</servlet-name>
+        <servlet-class>Run</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Run</servlet-name>
+        <url-pattern>/Run</url-pattern>
+    </servlet-mapping>
+
+</web-app>
